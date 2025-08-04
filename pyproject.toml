@@ -1,0 +1,14 @@
+[project]
+name = "llim"
+version = "0.1.0"
+description = "LLIM"
+dependencies = []
+readme = "README.md"
+license = "GPL-3.0-or-later"
+
+[project.scripts]
+llim-cli = "llim:main_cli"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
