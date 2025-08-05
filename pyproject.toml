@@ -7,7 +7,7 @@ readme = "README.md"
 license = "GPL-3.0-or-later"
 
 [project.scripts]
-llim-cli = "llim:main_cli"
+llim-cli = "llim.main:main"
 
 [build-system]
 requires = ["setuptools"]
